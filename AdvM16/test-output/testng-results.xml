@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Report generation]]>
+    </line>
+    <line>
+      <![CDATA[test execution statred]]>
+    </line>
+    <line>
+      <![CDATA[test script passed]]>
+    </line>
+    <line>
+      <![CDATA[report close]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-18T07:35:12 IST" name="Default suite" finished-at="2024-07-18T07:35:48 IST" duration-ms="35853">
+    <groups>
+      <group name="organisation">
+        <method signature="Script1_Test.script1()[pri:0, instance:script_Vtiger.Script1_Test@5fbdfdcf]" name="script1" class="script_Vtiger.Script1_Test"/>
+      </group> <!-- organisation -->
+    </groups>
+    <test started-at="2024-07-18T07:35:12 IST" name="Default test" finished-at="2024-07-18T07:35:48 IST" duration-ms="35853">
+      <class name="script_Vtiger.Script1_Test">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:script_Vtiger.Script1_Test@5fbdfdcf]" started-at="2024-07-18T07:35:12 IST" name="beforeSuite" finished-at="2024-07-18T07:35:12 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Report generation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:script_Vtiger.Script1_Test@5fbdfdcf]" started-at="2024-07-18T07:35:12 IST" name="beforeClass" finished-at="2024-07-18T07:35:18 IST" duration-ms="5597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:script_Vtiger.Script1_Test@5fbdfdcf]" started-at="2024-07-18T07:35:18 IST" name="beforeMethod" finished-at="2024-07-18T07:35:22 IST" duration-ms="4586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void script_Vtiger.Script1_Test.script1() throws org.apache.poi.EncryptedDocumentException,java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="script1()[pri:0, instance:script_Vtiger.Script1_Test@5fbdfdcf]" started-at="2024-07-18T07:35:22 IST" name="script1" finished-at="2024-07-18T07:35:42 IST" duration-ms="19594" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test execution statred]]>
+            </line>
+            <line>
+              <![CDATA[test script passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- script1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:script_Vtiger.Script1_Test@5fbdfdcf]" started-at="2024-07-18T07:35:42 IST" name="afterMethod" finished-at="2024-07-18T07:35:48 IST" duration-ms="5839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:script_Vtiger.Script1_Test@5fbdfdcf]" started-at="2024-07-18T07:35:48 IST" name="afterClass" finished-at="2024-07-18T07:35:48 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:script_Vtiger.Script1_Test@5fbdfdcf]" started-at="2024-07-18T07:35:48 IST" name="afterSuite" finished-at="2024-07-18T07:35:48 IST" duration-ms="276" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[report close]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- script_Vtiger.Script1_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
